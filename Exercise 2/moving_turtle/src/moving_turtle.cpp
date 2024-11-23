@@ -45,7 +45,7 @@ private:
     msg.linear.y = 1;
     msg.angular.z = 1;
     circleMovimentPublisher->publish(msg);
-    // rclcpp::sleep_for(std::chrono::seconds(2));
+    rclcpp::sleep_for(std::chrono::seconds(2));
   }
 
   void movingInSquare() {
