@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target noQueEnviaString[0m
+[0.061s] [ 50%] Built target nomeDeSaida
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/noQueEnviaString.dir/src/example.cpp.o[0m
+[0.165s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:36:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.165s]    36 | }
+[0.165s]       |  [01;31m[K^[m[K
+[1.207s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.207s]    26 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),
+[1.207s]       |                [01;31m[K^[m[K
+[1.207s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:8:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.207s]     8 | class StringNode : public rclcpp::Node [01;36m[K{[m[K
+[1.207s]       |                                        [01;36m[K^[m[K
+[1.217s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:[m[K In member function ‘[01m[Kvoid StringNode::sendMessage()[m[K’:
+[1.217s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.217s]    26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+[1.218s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.218s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.218s]    26 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),
+[1.218s]       |                [01;31m[K^[m[K
+[1.218s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:22:22:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.218s]    22 |   void sendMessage() [01;36m[K{[m[K
+[1.218s]       |                      [01;36m[K^[m[K
+[1.218s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:[m[K At global scope:
+[1.218s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.218s]    26 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),
+[1.218s]       |                [01;31m[K^[m[K
+[1.568s] gmake[2]: *** [CMakeFiles/noQueEnviaString.dir/build.make:76: CMakeFiles/noQueEnviaString.dir/src/example.cpp.o] Error 1
+[1.568s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/noQueEnviaString.dir/all] Error 2
+[1.569s] gmake: *** [Makefile:146: all] Error 2
+[1.571s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16

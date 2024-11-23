@@ -1,0 +1,10 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/nomeDeSaida.dir/src/simplePublisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/noQueEnviaString.dir/src/example.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/simplePublisher.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nomeDeSaida.dir/build.make:76: CMakeFiles/nomeDeSaida.dir/src/simplePublisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/nomeDeSaida.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable noQueEnviaString[0m
+[ 75%] Built target noQueEnviaString
+gmake: *** [Makefile:146: all] Error 2

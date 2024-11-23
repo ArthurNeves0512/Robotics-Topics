@@ -1,0 +1,11 @@
+[0.006s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16
+[0.049s] [ 25%] [32mBuilding CXX object CMakeFiles/noQueEnviaMovimento.dir/src/moving_turtle.cpp.o[0m
+[0.056s] [ 75%] Built target noQueEnviaString
+[0.081s] [01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/moving_turtle.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.081s]     2 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.081s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.081s] compilation terminated.
+[0.082s] gmake[2]: *** [CMakeFiles/noQueEnviaMovimento.dir/build.make:76: CMakeFiles/noQueEnviaMovimento.dir/src/moving_turtle.cpp.o] Error 1
+[0.082s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/noQueEnviaMovimento.dir/all] Error 2
+[0.082s] gmake: *** [Makefile:146: all] Error 2
+[0.084s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16

@@ -1,0 +1,17 @@
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaString
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaMovimento
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/package_run_dependencies/moving_turtle
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/parent_prefix_path/moving_turtle
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.sh
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.dsv
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.sh
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.dsv
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.bash
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.sh
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.zsh
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.dsv
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.dsv
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/packages/moving_turtle
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig.cmake
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig-version.cmake
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.xml

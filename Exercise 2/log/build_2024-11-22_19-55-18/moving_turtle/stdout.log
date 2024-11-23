@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/nomeDeSaida.dir/src/simplePublisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/noQueEnviaString.dir/src/example.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable noQueEnviaString[0m
+[ 75%] Built target noQueEnviaString

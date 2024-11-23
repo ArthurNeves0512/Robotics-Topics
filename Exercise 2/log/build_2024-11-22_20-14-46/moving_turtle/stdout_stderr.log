@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/noQueEnviaMovimento.dir/src/moving_turtle.cpp.o[0m
+[ 75%] Built target noQueEnviaString
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/moving_turtle.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msg/msg/twist.hpp: No such file or directory
+    2 | #include [01;31m[K"geometry_msg/msg/twist.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/noQueEnviaMovimento.dir/build.make:76: CMakeFiles/noQueEnviaMovimento.dir/src/moving_turtle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/noQueEnviaMovimento.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

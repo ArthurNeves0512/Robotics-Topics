@@ -1,0 +1,25 @@
+[0.006s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle -- -j16 -l16
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target noQueEnviaMovimento[0m
+[0.048s] [100%] Built target noQueEnviaMovimento
+[0.049s] [100%] Built target noQueEnviaString
+[0.058s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle -- -j16 -l16
+[0.103s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle
+[0.110s] -- Install configuration: ""
+[0.111s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaString
+[0.111s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaMovimento
+[0.111s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/package_run_dependencies/moving_turtle
+[0.111s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/parent_prefix_path/moving_turtle
+[0.111s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.sh
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.dsv
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.sh
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.dsv
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.bash
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.sh
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.zsh
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.dsv
+[0.112s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.dsv
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/packages/moving_turtle
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig.cmake
+[0.112s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig-version.cmake
+[0.113s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.xml
+[0.114s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle

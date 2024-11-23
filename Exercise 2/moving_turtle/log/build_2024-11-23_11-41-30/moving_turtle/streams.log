@@ -1,0 +1,27 @@
+[0.006s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle -- -j16 -l16
+[0.057s] [ 50%] Built target noQueEnviaString
+[0.060s] [ 75%] [32mBuilding CXX object CMakeFiles/noQueEnviaMovimento.dir/src/moving_turtle.cpp.o[0m
+[2.336s] [100%] [32m[1mLinking CXX executable noQueEnviaMovimento[0m
+[2.453s] [100%] Built target noQueEnviaMovimento
+[2.462s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle -- -j16 -l16
+[2.512s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle
+[2.523s] -- Install configuration: ""
+[2.523s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaString
+[2.523s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaMovimento
+[2.525s] -- Set runtime path of "/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaMovimento" to ""
+[2.525s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/package_run_dependencies/moving_turtle
+[2.525s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/parent_prefix_path/moving_turtle
+[2.526s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.sh
+[2.526s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.dsv
+[2.526s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.sh
+[2.526s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.dsv
+[2.526s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.bash
+[2.526s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.sh
+[2.527s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.zsh
+[2.527s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.dsv
+[2.527s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.dsv
+[2.527s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/packages/moving_turtle
+[2.528s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig.cmake
+[2.528s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig-version.cmake
+[2.528s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.xml
+[2.529s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/build/moving_turtle

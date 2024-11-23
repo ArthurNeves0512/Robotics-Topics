@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (moving_turtle) JobQueued: {'identifier': 'moving_turtle', 'dependencies': OrderedDict()}
+[0.000441] (moving_turtle) JobStarted: {'identifier': 'moving_turtle'}
+[0.004672] (moving_turtle) JobProgress: {'identifier': 'moving_turtle', 'progress': 'cmake'}
+[0.004946] (moving_turtle) JobProgress: {'identifier': 'moving_turtle', 'progress': 'build'}
+[0.005359] (moving_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle', '--', '-j16', '-l16'], 'cwd': '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle', 'env': OrderedDict([('LC_TIME', 'pt_BR.UTF-8'), ('USER', 'arthur'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('TERMINFO', '/home/arthur/.local/kitty.app/lib/kitty/terminfo'), ('OLDPWD', '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('KITTY_INSTALLATION_DIR', '/home/arthur/.local/kitty.app/lib/kitty'), ('NVM_BIN', '/home/arthur/.nvm/versions/node/v20.18.0/bin'), ('ZSH', '/home/arthur/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/arthur/.nvm/versions/node/v20.18.0/include/node'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('MANAGERPID', '1573'), ('KITTY_PID', '14335'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14335'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/arthur/.nvm'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('GTK_IM_MODULE', 'cedilla'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:2939'), ('WINDOWID', '6291467'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'arthur'), ('TERM', 'xterm-kitty'), ('KITTY_PUBLIC_KEY', '1:>k2HvUSNcn1H)f*t%pbJew?}U^JXPndk@=u``Y$<'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('RBENV_SHELL', 'zsh'), ('WINDOWPATH', '2'), ('PATH', '/home/arthur/.rbenv/shims:/home/arthur/.rbenv/bin:/home/arthur/.nvm/versions/node/v20.18.0/bin:/opt/ros/humble/bin:/home/arthur/.cargo/bin:/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/arthur/.local/kitty.app/bin:/opt/nvim-linux64/bin'), ('SESSION_MANAGER', 'local/arthur-Dell-G15-5520:@/tmp/.ICE-unix/1843,unix/arthur-Dell-G15-5520:/tmp/.ICE-unix/1843'), ('INVOCATION_ID', '6a2b723c6aef4dd28c3f8a16e3f676db'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_NAME', 'pt_BR.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('KITTY_WINDOW_ID', '5'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', '-q'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('MANPATH', '/home/arthur/.nvm/versions/node/v20.18.0/share/man:/home/arthur/.local/kitty.app/share/man:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045531] (moving_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target noQueEnviaString\x1b[0m\n'}
+[0.054254] (moving_turtle) StdoutLine: {'line': b'[ 50%] Built target nomeDeSaida\n'}
+[0.058089] (moving_turtle) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/noQueEnviaString.dir/src/example.cpp.o\x1b[0m\n'}
+[0.099989] (-) TimerEvent: {}
+[0.200365] (-) TimerEvent: {}
+[0.300741] (-) TimerEvent: {}
+[0.401118] (-) TimerEvent: {}
+[0.501509] (-) TimerEvent: {}
+[0.601853] (-) TimerEvent: {}
+[0.702244] (-) TimerEvent: {}
+[0.802644] (-) TimerEvent: {}
+[0.902935] (-) TimerEvent: {}
+[1.003336] (-) TimerEvent: {}
+[1.103725] (-) TimerEvent: {}
+[1.204116] (-) TimerEvent: {}
+[1.223212] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.223401] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.223466] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.223524] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.223579] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.223633] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.223686] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.223739] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.223792] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.223846] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.223899] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.223956] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.224009] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid StringNode::sendMessage()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.224065] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:27:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.224119] (moving_turtle) StderrLine: {'line': b'   27 |                 "Publishing in logger" + \x1b[01;31m\x1b[Kstd::to_string(message.data.c_str())\x1b[m\x1b[K);\n'}
+[1.224172] (moving_turtle) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.224225] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.224278] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.224338] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.224393] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.224446] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.224499] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.224552] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.224606] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.224659] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[1.224713] (moving_turtle) StderrLine: {'line': b' 6660 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[1.224765] (moving_turtle) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.224817] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[1.224870] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.224922] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.224975] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.225027] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.225079] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.225132] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.225189] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.225245] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.225299] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.225357] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.225409] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.225462] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.225518] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:27:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.225577] (moving_turtle) StderrLine: {'line': b'   27 |                 "Publishing in logger" + std::to_string(\x1b[01;31m\x1b[Kmessage.data.c_str()\x1b[m\x1b[K));\n'}
+[1.225630] (moving_turtle) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.225683] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.225737] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[1.225789] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.225841] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.225893] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.225944] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.225997] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.226049] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.226101] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.226153] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.226206] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[1.226259] (moving_turtle) StderrLine: {'line': b' 6671 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[1.226317] (moving_turtle) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.226371] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[1.226424] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.226475] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.226530] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.226582] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.226634] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.226686] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.226737] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.226789] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.226841] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.226893] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.226944] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.226996] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.227048] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:27:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.227108] (moving_turtle) StderrLine: {'line': b'   27 |                 "Publishing in logger" + std::to_string(\x1b[01;31m\x1b[Kmessage.data.c_str()\x1b[m\x1b[K));\n'}
+[1.227161] (moving_turtle) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.227213] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.227265] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[1.227323] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.227377] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.227429] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.227481] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.227534] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.227588] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.227641] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.227695] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.227750] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[1.227803] (moving_turtle) StderrLine: {'line': b' 6679 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[1.227856] (moving_turtle) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.227907] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[1.227960] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.228012] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.228063] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.228115] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.228167] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.228219] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.228271] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.228521] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.228578] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.228605] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.228627] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.228650] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.228672] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:27:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.228697] (moving_turtle) StderrLine: {'line': b'   27 |                 "Publishing in logger" + std::to_string(\x1b[01;31m\x1b[Kmessage.data.c_str()\x1b[m\x1b[K));\n'}
+[1.228720] (moving_turtle) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.228742] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.228764] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[1.228784] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.228804] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.228833] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.228854] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.228874] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.228893] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.228914] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.228933] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.228953] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[1.228974] (moving_turtle) StderrLine: {'line': b' 6690 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[1.228994] (moving_turtle) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229014] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[1.229034] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.229054] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.229074] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.229094] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.229115] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.229135] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.229156] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.229176] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.229196] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.229216] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.229236] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.229256] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.229275] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:27:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.229307] (moving_turtle) StderrLine: {'line': b'   27 |                 "Publishing in logger" + std::to_string(\x1b[01;31m\x1b[Kmessage.data.c_str()\x1b[m\x1b[K));\n'}
+[1.229328] (moving_turtle) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.229347] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.229367] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[1.229387] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.229406] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.229426] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.229445] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.229464] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.229484] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.229503] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.229523] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.229542] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[1.229563] (moving_turtle) StderrLine: {'line': b' 6698 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[1.229583] (moving_turtle) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229603] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[1.229624] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.229644] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.229663] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.229684] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.229703] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.229722] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.229743] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.229761] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.229781] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.229803] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.229822] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.229841] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.229861] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:27:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.229883] (moving_turtle) StderrLine: {'line': b'   27 |                 "Publishing in logger" + std::to_string(\x1b[01;31m\x1b[Kmessage.data.c_str()\x1b[m\x1b[K));\n'}
+[1.229904] (moving_turtle) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.229924] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.229943] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[1.229964] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.229983] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.230003] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.230022] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.230042] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.230061] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.230080] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.230100] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.230119] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[1.230139] (moving_turtle) StderrLine: {'line': b' 6710 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[1.230159] (moving_turtle) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.230179] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[1.230200] (moving_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.230220] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.230240] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.230261] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.230281] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.230306] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.230326] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.230346] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.230370] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.230389] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.230409] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.230429] (moving_turtle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[1.230448] (moving_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:27:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.230470] (moving_turtle) StderrLine: {'line': b'   27 |                 "Publishing in logger" + std::to_string(\x1b[01;31m\x1b[Kmessage.data.c_str()\x1b[m\x1b[K));\n'}
+[1.230490] (moving_turtle) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.230510] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.230530] (moving_turtle) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[1.304319] (-) TimerEvent: {}
+[1.404683] (-) TimerEvent: {}
+[1.505035] (-) TimerEvent: {}
+[1.605428] (-) TimerEvent: {}
+[1.652394] (moving_turtle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/noQueEnviaString.dir/build.make:76: CMakeFiles/noQueEnviaString.dir/src/example.cpp.o] Error 1\n'}
+[1.652633] (moving_turtle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/noQueEnviaString.dir/all] Error 2\n'}
+[1.652695] (moving_turtle) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.655386] (moving_turtle) CommandEnded: {'returncode': 2}
+[1.686918] (moving_turtle) JobEnded: {'identifier': 'moving_turtle', 'rc': 2}
+[1.697774] (-) EventReactorShutdown: {}

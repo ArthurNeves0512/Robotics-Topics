@@ -1,0 +1,23 @@
+[ 50%] Built target noQueEnviaString
+[ 75%] [32mBuilding CXX object CMakeFiles/noQueEnviaMovimento.dir/src/moving_turtle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable noQueEnviaMovimento[0m
+[100%] Built target noQueEnviaMovimento
+-- Install configuration: ""
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaString
+-- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaMovimento
+-- Set runtime path of "/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/lib/moving_turtle/noQueEnviaMovimento" to ""
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/package_run_dependencies/moving_turtle
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/parent_prefix_path/moving_turtle
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.sh
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.sh
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/environment/path.dsv
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.bash
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.sh
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.zsh
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/local_setup.dsv
+-- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.dsv
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/ament_index/resource_index/packages/moving_turtle
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig.cmake
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig-version.cmake
+-- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/install/moving_turtle/share/moving_turtle/package.xml

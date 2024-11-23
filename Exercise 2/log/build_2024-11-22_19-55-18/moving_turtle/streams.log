@@ -1,0 +1,12 @@
+[0.007s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/nomeDeSaida.dir/src/simplePublisher.cpp.o[0m
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/noQueEnviaString.dir/src/example.cpp.o[0m
+[0.183s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/simplePublisher.cpp: No such file or directory
+[0.184s] compilation terminated.
+[0.186s] gmake[2]: *** [CMakeFiles/nomeDeSaida.dir/build.make:76: CMakeFiles/nomeDeSaida.dir/src/simplePublisher.cpp.o] Error 1
+[0.187s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/nomeDeSaida.dir/all] Error 2
+[0.187s] gmake[1]: *** Waiting for unfinished jobs....
+[2.524s] [ 75%] [32m[1mLinking CXX executable noQueEnviaString[0m
+[2.669s] [ 75%] Built target noQueEnviaString
+[2.669s] gmake: *** [Makefile:146: all] Error 2
+[2.671s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16

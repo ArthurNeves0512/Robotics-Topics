@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target noQueEnviaString[0m
+[ 50%] Built target nomeDeSaida
+[ 75%] [32mBuilding CXX object CMakeFiles/noQueEnviaString.dir/src/example.cpp.o[0m
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:36:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   36 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   26 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),
+      |                [01;31m[K^[m[K
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:8:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    8 | class StringNode : public rclcpp::Node [01;36m[K{[m[K
+      |                                        [01;36m[K^[m[K
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:[m[K In member function ‘[01m[Kvoid StringNode::sendMessage()[m[K’:
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   26 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   26 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),
+      |                [01;31m[K^[m[K
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:22:22:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   22 |   void sendMessage() [01;36m[K{[m[K
+      |                      [01;36m[K^[m[K
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:[m[K At global scope:
+[01m[K/home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle/src/example.cpp:26:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   26 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(),
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/noQueEnviaString.dir/build.make:76: CMakeFiles/noQueEnviaString.dir/src/example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/noQueEnviaString.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

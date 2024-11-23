@@ -1,0 +1,11 @@
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/uninstall.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/moving_turtle_uninstall.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/noQueEnviaString.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/noQueEnviaMovimento.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/test.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/edit_cache.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/rebuild_cache.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/list_install_components.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/install.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/install/local.dir
+/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle/CMakeFiles/install/strip.dir

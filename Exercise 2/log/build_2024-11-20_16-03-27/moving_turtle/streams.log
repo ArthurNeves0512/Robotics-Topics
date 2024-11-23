@@ -1,0 +1,50 @@
+[0.006s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle
+[0.015s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.125s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.130s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.155s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.168s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.169s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.230s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.252s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.290s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.290s] -- Configured cppcheck include dirs: 
+[0.290s] -- Configured cppcheck exclude dirs and/or files: 
+[0.290s] -- Added test 'lint_cmake' to check CMake code style
+[0.291s] -- Added test 'uncrustify' to check C / C++ code style
+[0.291s] -- Configured uncrustify additional arguments: 
+[0.291s] -- Added test 'xmllint' to check XML markup files
+[0.291s] -- Configuring done
+[0.295s] -- Generating done
+[0.296s] -- Build files have been written to: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle
+[0.302s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arthur/Projects/TopicosEmRobotica/Exercise 2/moving_turtle -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle
+[0.303s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target nomeDeSaida[0m
+[0.356s] [ 50%] [32mBuilding CXX object CMakeFiles/nomeDeSaida.dir/src/simplePublisher.cpp.o[0m
+[2.569s] [100%] [32m[1mLinking CXX executable nomeDeSaida[0m
+[2.679s] [100%] Built target nomeDeSaida
+[2.689s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle -- -j16 -l16
+[2.717s] Invoking command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle
+[2.723s] -- Install configuration: ""
+[2.724s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/lib/moving_turtle/nomeDeSaida
+[2.724s] -- Set runtime path of "/home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/lib/moving_turtle/nomeDeSaida" to ""
+[2.724s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/ament_index/resource_index/package_run_dependencies/moving_turtle
+[2.724s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/ament_index/resource_index/parent_prefix_path/moving_turtle
+[2.724s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.sh
+[2.724s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/environment/ament_prefix_path.dsv
+[2.724s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/environment/path.sh
+[2.725s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/environment/path.dsv
+[2.725s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/local_setup.bash
+[2.725s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/local_setup.sh
+[2.725s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/local_setup.zsh
+[2.725s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/local_setup.dsv
+[2.725s] -- Installing: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/package.dsv
+[2.725s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/ament_index/resource_index/packages/moving_turtle
+[2.725s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig.cmake
+[2.725s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/cmake/moving_turtleConfig-version.cmake
+[2.725s] -- Up-to-date: /home/arthur/Projects/TopicosEmRobotica/Exercise 2/install/moving_turtle/share/moving_turtle/package.xml
+[2.726s] Invoked command in '/home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arthur/Projects/TopicosEmRobotica/Exercise 2/build/moving_turtle
